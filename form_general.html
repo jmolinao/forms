@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>EasyContactGeneral</title>	
+    <link rel="stylesheet" href="form_general.css" /> 
+    <link rel="stylesheet" href="bootstrap.min.css" /> 
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+	<script src="jquery-1.9.1.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="validate_rut.js"></script>
+	<script src="jquery.validate.js"></script> 
+	<script src="validation.js"></script>
+	<script src="main.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="jquery-1.9.1.js"></script>
+    <script src="assets/lightbox/lightbox.js"></script>  	
+	<script src="jquery-ui.js"></script> 
+	<script src="mootools.js"></script>
+	<script src="jquery.form.min.js"></script>
+
+
+	<script type="text/javascript">
+	  //this code is important for controlate the errors
+	  window.backgroundError='#FFE2E2';
+	  window.backgroundSuccess='#EBEBEB';
+	</script>
+	
+</head>
+<body>
+
+<div class="container-fluid">
+
+	<div align="center" id="load" class="invisible" style="margin-top: 120px;"><img src="assets/img/loading.gif"/><br>Cargando...</div>
+
+	<div id="total" class="visible">
+
+		<form id="form"  method="post">
+
+			<input type="hidden" value="Contacto Eurotel Providencia" name="F20" /><!--F20 important-->		
+			 
+			 <div class="col-sm-12 form-group">
+			 	<input class="form-control" type="text" name="F1" id="F1" need="true" placeholder="Nombre"/> <!--F1-->
+			 </div>
+
+			 <div>
+
+			 	<div class="col-sm-6 form-group">
+			 		<input class="form-control" type="text" name="F2" format='email' id="email" need="true" placeholder="Email"/> <!--F2-->
+			 	</div>
+
+			 	<div class="col-sm-6 form-group">
+			 		<input class="form-control" type="text" name="F3" id="F3" format='phone' need="true" maxlength="12" placeholder="Fono" /> <!--F3-->
+			 	</div>
+			 	
+			 </div>
+
+			 <div class="col-sm-12 form-group">
+			 	<textarea class="form-control" name="F4" need="true" id="message" placeholder="Comentario"></textarea> <!--f4-->
+			 </div>
+
+			 <div class="col-sm-12 form-group">
+			 <button type="submit" class="btn btn-provi">ENVIAR</button>
+			 </div>
+
+		</form>
+
+	</div>	 
+
+</div>
+
+	<!--<div id="dialog" title="Atención!!" style="display: none;">
+	  <p>
+		<span id="icon-dialog" class="ui-icon ui-icon-circle-check" style="float: left; margin: 0 7px 50px 0;"></span>
+		 <div id="msg-modal"></div>
+	  </p>
+	</div>-->
+</body>
+</html>
+ 
+
