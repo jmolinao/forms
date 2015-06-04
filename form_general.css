@@ -1,0 +1,7 @@
+.visible {display:block;}
+.invisible {display:none;}
+#total {padding: 10px 0px;}
+.form-control {border-radius: 0px !important;}
+.btn {border-radius: 0px !important;}
+.btn-provi {color: #fff; background-color: #f28260; border-color: #d15d3a; float: right;}
+.btn-provi:hover { background-color:#d15d3a; color: #fff !important;}
