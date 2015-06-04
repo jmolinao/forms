@@ -9,7 +9,7 @@
 		}
    }	
     
-	require_once('../config.php');
+	require_once('config.php');
 	require_once('class.basicMail.php');
 	$config = new Config();
 	$db=new DB(); 
